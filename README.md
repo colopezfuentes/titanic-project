@@ -12,7 +12,7 @@
 sbt package
 ```
 ```
-spark-submit --class Titanic --name Titanic --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.3 /target/scala-2.11/option-project_2.11-0.1.jar
+spark-submit --class Titanic --name Titanic --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.3 target/scala-2.11/option-project_2.11-0.1.jar
 ```
 
 
