@@ -2,7 +2,7 @@ import org.apache.spark.sql.SparkSession
 
 object Titanic {
   def main(args: Array[String]): Unit = {
-    var pathCSV = "/Users/backupchile/Downloads/titanic.csv"
+    var pathCSV = "./titanic.csv"
     var outputPathCSV = "./survivors"
     var outputPathPriorityCSV = "./priority"
 
@@ -12,7 +12,7 @@ object Titanic {
       outputPathPriorityCSV = args(2)
     }
 
-    val spark = SparkSession.builder.appName("Read CSV Data with Spark App").config("spark.master", "local").getOrCreate()
+    val spark = SparkSession.builder.appName("Titanic").config("spark.master", "local").getOrCreate()
 
     /**
      * Ingester, read CSV
