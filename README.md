@@ -27,3 +27,9 @@ spark-submit --class Titanic --name Titanic --packages org.apache.spark:spark-sq
 
 ## Finalmente, job exitoso
 ![alt text](job-success.png "Logo Title Text 1")
+
+## El CSV que incluye la info de la tabla de información de sobrevivientes por tipo de clase se almacenaron en Storage /survivors
+![alt text](reporte-survivors.png "Logo Title Text 1")
+
+## El CSV que incluye la información de las distintas prioridades se almacenaron en  Storage /priority
+![alt text](reporte-priority.png "Logo Title Text 1")
